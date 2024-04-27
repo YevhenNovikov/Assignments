@@ -1,0 +1,1 @@
+A.txt: 5, B.txt: 44, C.txt: 36, D.txt: 61, E.txt: 78, F.txt: 18, G.txt: 41, H.txt: 30, I.txt: 63, J.txt: 10, K.txt: 82, L.txt: 99, M.txt: 39, N.txt: 30, O.txt: 84, P.txt: 49, Q.txt: 93, R.txt: 12, S.txt: 11, T.txt: 84, U.txt: 72, V.txt: 90, W.txt: 58, X.txt: 67, Y.txt: 75, Z.txt: 61
