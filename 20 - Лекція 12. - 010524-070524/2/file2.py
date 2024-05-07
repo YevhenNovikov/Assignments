@@ -5,9 +5,13 @@ def catch_errors(func):
         try:
             return func(*args, **kwargs)
         
+        except KeyError as variable:
+
+            print(f"Found 1 error during execution of your function: KeyError no such key as {variable}")
+
         except Exception as variable:
 
-            print(f"Found 1 error during execution of your function: {type(variable).__name__} no such key as {variable}")
+            print(f"Found 1 error during execution of your function: {type(variable).__name__} - {variable}")
     
     return wrapper
 
