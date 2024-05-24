@@ -68,8 +68,6 @@ INSERT INTO Reviews (user_id, room_id, rating, comment) VALUES
 
 
 
-
-
 SELECT u.user_id, u.username
 FROM (
     SELECT user_id, COUNT(*) AS reservation_count
@@ -79,3 +77,5 @@ FROM (
     LIMIT 1
 ) AS max_reservation
 JOIN Users u ON max_reservation.user_id = u.user_id;
+
+
