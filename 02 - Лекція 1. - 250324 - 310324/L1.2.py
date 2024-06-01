@@ -1,0 +1,5 @@
+number1 = int(input(5))
+number2 = int(input(3))
+print(number1)
+print(number2)
+print(number1-number2)
