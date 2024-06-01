@@ -1,0 +1,5 @@
+number1=int(input(75))
+number2=int(input(34))
+print(number1)
+print(number2)
+print(max(number1,number2))
